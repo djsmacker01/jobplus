@@ -1,0 +1,94 @@
+:root {
+  --alpha: #2C3E50;
+  --beta: #0A7ED2;
+  --gamma: #1D2730;
+  --delta: #EDEDED;
+  --alert: #FD5959;
+  --contrast: #E84188;
+  --elements: #C4C4C4;
+  --light: #FFF;
+  --skills: #e1e1e1;
+}
+
+.container {
+  max-width: 895rem;
+  margin: 10rem auto;
+}
+
+.sector {
+  padding: 10rem;
+}
+.sector h2 {
+  font-size: 26rem;
+  text-align: center;
+}
+.sector p {
+  font-size: 14rem;
+  text-align: center;
+  margin-bottom: 20rem;
+}
+.sector__types {
+  display: grid;
+}
+.sector__wrap {
+  display: grid;
+  margin-bottom: 15rem;
+}
+.sector__picture {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  filter: brightness(30%);
+}
+.sector__picture img {
+  width: 100%;
+}
+.sector__name {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  align-self: center;
+  z-index: 1;
+  font-family: "OpenSans ExtraBold";
+  color: var(--light);
+  font-size: 26rem;
+  text-align: center;
+}
+.sector__browse {
+  border: 1px var(--beta) solid;
+  padding: 10rem;
+  border-radius: 5rem;
+  text-align: center;
+  color: var(--beta);
+  margin-bottom: 15rem;
+}
+.sector__mlist, .sector__list {
+  font-size: 17rem;
+}
+.sector__mlist span, .sector__list span {
+  color: var(--beta);
+  font-size: 14rem;
+}
+.sector__mlist li, .sector__list li {
+  margin-top: 8rem;
+}
+.sector__list {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .sector h2 {
+    font-size: 34rem;
+  }
+  .sector p {
+    font-size: 18rem;
+  }
+  .sector__types {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10rem;
+  }
+  .sector__browse, .sector__mlist {
+    display: none;
+  }
+  .sector__list {
+    display: block;
+    font-size: 15rem;
+  }
+}/*# sourceMappingURL=Container.css.map */
