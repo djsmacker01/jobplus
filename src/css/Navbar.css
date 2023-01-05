@@ -1,12 +1,12 @@
 :root {
-  --alpha: #2C3E50;
-  --beta: #0A7ED2;
-  --gamma: #1D2730;
-  --delta: #EDEDED;
-  --alert: #FD5959;
-  --contrast: #E84188;
-  --elements: #C4C4C4;
-  --light: #FFF;
+  --alpha: #2c3e50;
+  --beta: #0a7ed2;
+  --gamma: #1d2730;
+  --delta: #ededed;
+  --alert: #fd5959;
+  --contrast: #e84188;
+  --elements: #c4c4c4;
+  --light: #fff;
   --skills: #e1e1e1;
 }
 
@@ -63,12 +63,14 @@
 }
 .nav__toggle:checked ~ .nav__dropl {
   display: block;
+  border: 1px solid red;
 }
 .nav__toggle:checked ~ .nav__dropl li {
+  border: 1px solid red;
   padding: 15rem 10rem;
   border-bottom: 1px var(--delta) solid;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 767px) {
   .nav {
     grid-template-columns: 1fr min-content minmax(590rem, auto) min-content 1fr;
   }

@@ -73,7 +73,7 @@
 .sector__list {
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 767px) {
   .sector h2 {
     font-size: 34rem;
   }

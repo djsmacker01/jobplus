@@ -20,7 +20,7 @@ import "../sass/resets/_typography.scss";
 function Navigation() {
   return (
     <>
-      <nav className="nav body">
+      <nav className="nav">
       <input type="checkbox" className="nav__toggle" id="hamburger" hidden />
       <ul className="nav__lblock">
         <li className="nav__hamburger">

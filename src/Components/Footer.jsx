@@ -9,7 +9,7 @@ import "../sass/resets/_typography.scss";
 export default function Footer() {
   return (
     <div>
-     <footer class="footer">COPYRIGHT &copy; jobplus 2020</footer>
+     <footer className="footer">COPYRIGHT &copy; jobplus 2020</footer>
     </div>
   )
 }
